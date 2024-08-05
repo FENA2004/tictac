@@ -1,9 +1,8 @@
-// src/pages/Game.js
 import React, { useState } from 'react';
 import useStore from '../store/UseStore';
-import Board from '../components/Board';
+import Board from './board';
 import { useNavigate } from 'react-router-dom';
-import './Game.css'; // Import Game-specific CSS if needed
+import '../GamePage.css'; 
 
 const Game = () => {
   const { background, boxColor, fontColor, setGameStatus, resetGame } = useStore();

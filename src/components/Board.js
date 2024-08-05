@@ -1,6 +1,6 @@
-// src/components/Board.js
 import React from 'react';
 import useStore from '../store/UseStore';
+
 
 const Board = ({ board, onClick, winner }) => {
   const { boxColor, fontColor } = useStore();
