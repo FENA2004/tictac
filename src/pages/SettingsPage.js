@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import useStore from '../store/UseStore';
-import '../SettingsPage.css'
+import '../style/SettingsPage.css'
 
 const Settings = () => {
   const { background, boxColor, fontColor, setColors } = useStore();

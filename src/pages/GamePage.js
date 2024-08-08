@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import useStore from '../store/UseStore';
-import Board from '../components/Board';
 import { useNavigate } from 'react-router-dom';
-import '../GamePage.css';
+import '../style/GamePage.css';
 
 const GamePage = () => {
   const { background, boxColor, fontColor, resetGame } = useStore();
