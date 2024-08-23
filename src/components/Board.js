@@ -1,3 +1,4 @@
+//this is a comment in HTML 
 import React from 'react';
 import useStore from '../store/UseStore';
 
